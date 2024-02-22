@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+header{
+   padding: 20px 0;
+}
+
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+header .nav ul{
+    display: flex;
+    gap: 20px;
+
+}
+header .nav ul li{
+    list-style-type: none;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.btnDiv button{
+    background-color: #b68c5a;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.logoDiv img{
+    max-width: 130px;
+    height: auto;
+}
